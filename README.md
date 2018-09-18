@@ -1,2 +1,2 @@
 # OpenSourceStrategies
-Cours 2018-2019 Q1
+Cours LINGI2401 - 2018-2019 Q1
