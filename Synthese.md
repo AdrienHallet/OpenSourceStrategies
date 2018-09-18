@@ -62,3 +62,37 @@ James Liang is the engineer that managed to do that, but he's now in jail becaus
 *This example is only the beginning. They are many others (killing drones, AI populated kill lists, self-driving lists, ...). What code are we willing to do to keep our job ? What code are we ashamed about.*
 
 This example is to show that we are not a cog in the machine. **Market univesity is (allegedly) bullshit.** We have nuances between that market-driven university and the **Humboldtian university** that aims to create better, more responsible people. The choice between the two is not binary. We can be a bit of both.
+
+## History of free softwares
+
+At first, every software was free (besides the expensive hardware). Then the commercial softwares came, there was still an exchange of those software around hackers (no internet yet).
+
+In 1980, in the M.I.T., a new printer arrived (Xerox 9700). The queue for the whole building was quite long so a guy wrote a message-system to indicate to the user when the print job was finished. The company, on the other hand, copyrighted the source code and the new snippet was not allowed. The guy (Richard Stallman) then created the free software movement.
+
+### The movement
+* Free to use
+* Free to study
+* Free to modify
+* Free to redistribute
+
+*You are free to use your own definition of freedom.*
+
+### GNU (GNU is Not Unix)
+* Free operating system
+* Lot of tools without any system
+* GNU/GPL - 1989
+* GNU/Hurd - 1990
+
+The GPL license is a really important project where every using layer must have the GPL redistribution. It kind of "infects" the softwares using it with its license.
+
+### Linux (GNU/Linux)
+In 1991, Linus Torvalds wrote a mailing list where he asked for feedback on another OS because he was starting his own. Linux was born (amen) !
+Only one year after, a first distribution was born (SLS), many other followed (Ubuntu was in 2004).
+
+### Open source
+Free software are a bit aggressive against copyrighted code. The Open Source movement aims to be less political. The philosophy is now about efficiency. Open Source code allows more people to collaborate, more fixes to happen, ... It's better for the software (and it also helps non-free software).
+
+**FLOSS** : Free Libre Open Source Software
+
+---
+*Lecture 2*
