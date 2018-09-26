@@ -96,3 +96,73 @@ Free software are a bit aggressive against copyrighted code. The Open Source mov
 
 ---
 *Lecture 2*
+# Licenses
+
+### Context
+>In economy, we talk about *rival goods and non-rival goods*. If you own a rival good, only you profits of its gain. An example of a non-rival good is a toll bridge. You cannot "steal" passage on the bridge.
+
+The sixth century A.D. viewed **Sybaris Law**. It said that if you invent a receipe, you receive some money everytime a cook uses it for a year. It's a non-rival good. It's the first occurence of a patent law.
+
+Until the fifteenth century, people were mainly considering rival goods. The concept of authorship mainly was abstract, not financial. After that, the **printing press** was invented and information could be provided to a lot of customers.
+
+The copyright was a censorship tool for the king to ensure that only allowed books were printed. It's not done to protect the author but instead to censor him. In opposition to the moral right ; the author has the right over its creation and cannot be sold. The copyright can be sold.
+
+*Example given of the englishman who wed Hergé's widow and gained the copyrights for Tintin and now makes money over it.*
+
+*Another example is the "Boléro de Ravel" which copyright went through quite the stir (massage->driver->whatever)*
+
+Since code is also writing, creating it allows you to benefit from it as soon as you can prove you wrote it first.
+### License ?
+> A written agreement between two parties (the copyright holder and the user)
+
+We standardize licenses to make things easier but we could have one license per software. A license is all that separates free from proprietary software.
+
+#### How to license a software ?
+The license should be in every source file, most use a license file in every repository
+
+### Patents
+> A **Patent** is the agreement that the patent office in your country has validated that you may have the rights to something that might not have been invented before and you may ask money in return for it. ("may" is the keyword)
+
+The difference between classical patents and software patents is arbitrary and patents can really be abused.
+
+### Authorship
+* Every author claims his lines
+* Economics rights usually are transferred to the employer
+* Authors keep their moral rights
+* Diffusion under a given license is an economic right
+
+# Licenses
+### GPL
+You are forced to redistribute any modification with the same license.
+
+### Copyleft
+It's a copyright that says that you can do whatever you want if you redistribute it with the same license.
+
+### AGPL (Affero GPL)
+Made for web applications. Needed because the webserver that runs the code is not possessed by the user. It says that every user that wants it can request the source code.
+
+### MIT
+No copyleft, do what you want as long as we are not responsible for what you do with the code
+
+### BSD
+A bit like MIT
+
+### Mozilla Public License
+Mozilla created their own license to customize their needs.
+
+### Apache
+Same
+
+### Creative Commons
+The Creative Commons license has some clauses that allows for a fast and easy way to understand the license (Buy, Use, Transfer). The CC is quite unclear, for example about making money.
+
+### Others
+* WTFPL
+* Beerware
+* CeCILL
+* OSI
+
+### Dual Licensing
+It allows to have two licenses in the same software. Example of StarOffice, a "better" (proprietary) version of OpenOffice.
+
+Trilicensing also exists
