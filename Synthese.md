@@ -101,7 +101,7 @@ Free software are a bit aggressive against copyrighted code. The Open Source mov
 ### Context
 >In economy, we talk about *rival goods and non-rival goods*. If you own a rival good, only you profits of its gain. An example of a non-rival good is a toll bridge. You cannot "steal" passage on the bridge.
 
-The sixth century A.D. viewed **Sybaris Law**. It said that if you invent a receipe, you receive some money everytime a cook uses it for a year. It's a non-rival good. It's the first occurence of a patent law.
+The sixth century A.D. viewed **Sybaris Law**. It said that if you invent a receipe (non-rival good), you receive some money everytime a cook uses it for a year. It's the first occurence of a patent law.
 
 Until the fifteenth century, people were mainly considering rival goods. The concept of authorship mainly was abstract, not financial. After that, the **printing press** was invented and information could be provided to a lot of customers.
 
@@ -121,11 +121,11 @@ We standardize licenses to make things easier but we could have one license per 
 The license should be in every source file, most use a license file in every repository
 
 ### Patents
-> A **Patent** is the agreement that the patent office in your country has validated that you may have the rights to something that might not have been invented before and you may ask money in return for it. ("may" is the keyword)
+> A **Patent** is the agreement that the patent office in your country has validated that you may have the rights to something that might not have been invented before and you may ask money in return for it ("may" is the keyword). In theory, you can only patent *physical* things.
 
-The difference between classical patents and software patents is arbitrary and patents can really be abused.
+The difference between classical patents and software patents is arbitrary since there is always a way to "express it physically" and patents can really be abused.
 
-### Authorship
+### Authorship in a company
 * Every author claims his lines
 * Economics rights usually are transferred to the employer
 * Authors keep their moral rights
@@ -154,7 +154,13 @@ Mozilla created their own license to customize their needs.
 Same
 
 ### Creative Commons
-The Creative Commons license has some clauses that allows for a fast and easy way to understand the license (Buy, Use, Transfer). The CC is quite unclear, for example about making money.
+The Creative Commons license has some clauses that allows for a fast and easy way to understand the license (Buy, Use, Transfer). The CC is quite unclear, for example about making money. There is four clauses to pick from (any combinaison) :
+* Can use but need to specify who did it
+* Non-commercial
+* Can redistribute but not modify 
+* Can be reused but you have to transfer the right to modify to your user 
+
+In Europe, since it is not possible to put something in the public domain right away, we created *CC0*, which is the Creative Commons licence without any of the four clauses, which is equivalent to the public domain.
 
 ### Others
 * WTFPL
