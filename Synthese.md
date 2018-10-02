@@ -157,8 +157,8 @@ Same
 The Creative Commons license has some clauses that allows for a fast and easy way to understand the license (Buy, Use, Transfer). The CC is quite unclear, for example about making money. There is four clauses to pick from (any combinaison) :
 * Can use but need to specify who did it
 * Non-commercial
-* Can redistribute but not modify 
-* Can be reused but you have to transfer the right to modify to your user 
+* Can redistribute but not modify
+* Can be reused but you have to transfer the right to modify to your user
 
 In Europe, since it is not possible to put something in the public domain right away, we created *CC0*, which is the Creative Commons licence without any of the four clauses, which is equivalent to the public domain.
 
@@ -172,3 +172,25 @@ In Europe, since it is not possible to put something in the public domain right 
 It allows to have two licenses in the same software. Example of StarOffice, a "better" (proprietary) version of OpenOffice.
 
 Trilicensing also exists
+
+### GPL2 vs GPL3
+The third version prevents the 'tivoisation' to force makers to let people do whatever they want on the code.
+
+
+---
+*Lecture 3*
+
+## Business models
+Business models need to be flexible, never stick to the initial idea. We need to change the business model to adapt the situation. There is always a customer. Even when the app is free (ads) or public (administration).
+
+## The Metrix paradox
+As soon as you realize a causation between a cause and effect, you'll have a tendency to maximize your profit (example of the cars, ...)
+
+## Earn money with free softwares
+* Integration and consultancing
+* Consortium standardization
+* Donation
+* Proprietary features
+* Services around the app (e.g.. odoo)
+* Ads (sponsorship/...)
+* Goodies
