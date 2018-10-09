@@ -194,3 +194,14 @@ As soon as you realize a causation between a cause and effect, you'll have a ten
 * Services around the app (e.g.. odoo)
 * Ads (sponsorship/...)
 * Goodies
+
+---
+*Lecture 4*
+
+*Talking about the differences between **donation** and **charity***.
+
+In the free community, the **free price** is a PWYW (pay what you want) economic model.
+
+Always ask yourself *if I'm not paying, who is paying for it ?*.
+
+Then we talked about VCS like SVn, Git, ... Release strategies
