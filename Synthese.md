@@ -133,22 +133,26 @@ The difference between classical patents and software patents is arbitrary since
 
 # Licenses
 ### GPL
-You are forced to redistribute any modification with the same license.
+You are forced to redistribute any modification with the same license. 
+
+It evolved from v2 to v3 because of a company named Tivo, which created an on-demand video machine based on a Linux kernel. They had it under GPL v2, which means they would sell it with a hard copy of the code. But they installed a chip on the device that would prevent it to run if anything was changed in the original code (this is called an *anti-feature$, a feature that is designed to block the user).
+
+The community debated a long time about whether or not this should be allowed and, never agreeing, created GPL v3 that prevents such actions.
 
 ### Copyleft
 It's a copyright that says that you can do whatever you want if you redistribute it with the same license.
 
 ### AGPL (Affero GPL)
-Made for web applications. Needed because the webserver that runs the code is not possessed by the user. It says that every user that wants it can request the source code.
+Made for web applications. Needed because the webserver that runs the code is not possessed by the user of the website (they are not *technically* the owner) . It says that every user that wants it can request the source code.
 
 ### MIT
 No copyleft, do what you want as long as we are not responsible for what you do with the code
 
 ### BSD
-A bit like MIT
+A bit like MIT, you are completely free to reuse or modify the software.
 
 ### Mozilla Public License
-Mozilla created their own license to customize their needs.
+Mozilla created their own license to customize their needs, it is a middle ground between GPL and BSD.
 
 ### Apache
 Same
@@ -171,14 +175,21 @@ In Europe, since it is not possible to put something in the public domain right 
 ### Dual Licensing
 It allows to have two licenses in the same software. Example of StarOffice, a "better" (proprietary) version of OpenOffice.
 
-Trilicensing also exists
-
-### GPL2 vs GPL3
-The third version prevents the 'tivoisation' to force makers to let people do whatever they want on the code.
+Trilicensing also exists, or even relicensing (changing the licence), which is really hard to do but is achievable when fiddeling with the law (React did it).
 
 
 ---
 *Lecture 3*
+
+The main metrics of our society is *money* (we consider someone to be successful/smart/good if he/she has money). But there is a paradox with every metrics (green and red cars image) :
+
+>"Every system using a given metric as a measure of success will optimise itself to maximise that metric while becoming less and less efficient to solve the problem for which the system was initially conceived."
+
+The following is a logic consequence :
+
+>"Every organisation that needs money will have a strong tendancy to maximise money without consideration for anything else."
+
+
 
 ## Business models
 Business models need to be flexible, never stick to the initial idea. We need to change the business model to adapt the situation. There is always a customer. Even when the app is free (ads) or public (administration).
