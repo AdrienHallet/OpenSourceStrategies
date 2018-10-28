@@ -189,30 +189,79 @@ The following is a logic consequence :
 
 >"Every organisation that needs money will have a strong tendancy to maximise money without consideration for anything else."
 
-
+When creating a new company, there ofter is the problem of "raising money" (via seed funding,...). Those people giving money rarely are just angels, they excpect return on their investment; wich means that raising money is not a business model, you need to *sell* something, to have a product. 
 
 ## Business models
 Business models need to be flexible, never stick to the initial idea. We need to change the business model to adapt the situation. There is always a customer. Even when the app is free (ads) or public (administration).
-
-## The Metrix paradox
-As soon as you realize a causation between a cause and effect, you'll have a tendency to maximize your profit (example of the cars, ...)
 
 ## Earn money with free softwares
 * Integration and consultancing
 * Consortium standardization
 * Donation
 * Proprietary features
-* Services around the app (e.g.. odoo)
+* Services around the app (e.g.. Odoo)
 * Ads (sponsorship/...)
 * Goodies
+
+##Ads
+Ads are not free ! At the very least, you pay with the time you spend to watch them. Always ask the question "If I'm not paying for it, who is paying?"
 
 ---
 *Lecture 4*
 
-*Talking about the differences between **donation** and **charity***.
+There is a differences between **donation** and **charity** : charity is giving money out of pure generosity (or pity, or to feel better about something); when a donation is buying a service to the price you want.
 
 In the free community, the **free price** is a PWYW (pay what you want) economic model.
 
 Always ask yourself *if I'm not paying, who is paying for it ?*.
 
-Then we talked about VCS like SVn, Git, ... Release strategies
+The most important thing in an Open source projet has not yet been discussed : the code. In such projetcs, there is one big question : "Should this modification be part of the code or not?" (like in the parliament, where they ask if the modification should be part of the law).
+
+This requires code management. Here is a short history :
+* First, contributors would send patches by (e-)mail, for the owner to merge. The good point is that the maintener decides
+* Then, version control arrived, with RCS and SCCS; but they allowed to modify only one file at a time with locks
+* Then, the second generation with CVS or SVN, where you had to merge before you commit.
+* Then, finally, we had Mercurial/Bazaar/Git
+
+But not everything in a project is code, we also need a way to communicate and to do project management. Those channels are :
+* Mailing lists
+* IRC
+* Forums
+* XMPP chatrooms
+* Slack
+
+We also use **bug tracker** to manage the project, it is a key to an healthy project : we need to have bug tracking conventions and **bug triagers** (people that classifies bug and report how to reproduce them).
+
+We also need documentation or marketing using static websites or wiki (but wiki is bad, because no one maintains it).
+
+It is important to take decisions about what to merge, what to develop (roadmap), the evolution of the project as a whole,...
+
+Finally, there is the principle of **bicycle sheding** : when a group of people need to solve a difficult problem but some don't know how to go about it or feel not skilled enough, they end up talking about non-issues (like the color of a bicycle shed) for hours without making any progress in the real matter.
+
+---
+*Lecture 5*
+When choosing a solution, there always is a few metrics :
+* **Cost** : the *Total Cost of Ownership* (TCO) including hardware, salaries,... Very complex to calculate (nearly impossible in reality)
+* **Meet the requirement**, meaning that we check the specifications. In reality, they can't cover everything, and most of the time not written by users.
+* **Suport and maintainance**, where the real job begins, since it will take way longer than the devlopment. There is a really thin line between support and creating new features. Also, support needs to scale with the number of users.
+* **Vision**, since software is now a continuous process, your customer needs the buy the vision of the future with your software (this might be the most important aspect of the sale)
+
+This is the theoritical points. In reality, you deal with humains that will buy or not for unrationnal reasons (like the fact that you offered a pen).
+
+What about Open Source ? What are the advantages ?
+* The code source can be audited
+* No licensing fee
+* No vendor lock-in
+* Allows you to take part in the community
+* Transparent bug reporting and security update
+* Open stadard or, at least, transparent implementation
+
+Of course, it also has disadvantages :
+* Sometimes hard to find professional support
+* Usually harder to use
+* Uncertainty about the future
+* No clear responsability
+
+Historically, open source software were not focused on UX. It is still frequent to have open source software with outdated UX or with tons of options in order to please everyone.
+
+Also, the specifications may force Open Source, since you might one to be able to audit and modify the code.
