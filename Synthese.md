@@ -265,3 +265,34 @@ Of course, it also has disadvantages :
 Historically, open source software were not focused on UX. It is still frequent to have open source software with outdated UX or with tons of options in order to please everyone.
 
 Also, the specifications may force Open Source, since you might one to be able to audit and modify the code.
+
+---
+Lecture 6
+
+What is privacy ? Your position, phone number, messages, favorite sex fetish,... But it depends with whom you share it ! Most of us share our position with Google.
+
+Why do we want to protect our privacy ? As soon as you *know* that someone is watching changes how you behave (you tend to follow more), you become a different person.
+
+The **transitivity of privacy** means that once an information has been shared, you have to trust every informed person to protect your privacy. This means that any information transmitted to an untrustable party should be considered public.
+
+*Streisand effect* trying to hide a public informations makes it more visible, attracting attention (from the picture of Baraba's Streisand house).
+
+Also, why do people want to invade our privacies ? The first reason is to make you obey, either by coercion (surveillance) or by influencing you.
+
+The impact of ads on your brain is worse than everyone ever thinked, it is purposedly designed to steal your attention.
+
+Privacy is hard : there is no clear line, it depends on the context, on your trust,... Also, anonymisation is not privacy (military bases).
+
+>Security is the set of actions that a community takes to ensure that its members respect the rules of the community.
+
+It usually makes it harder to break the rule, but usually never impossible.
+
+There is 3 pilars of security : moral (trough teaching and propaganda, you educate people so they don't break the rules), consequences, cost.
+
+The feeling of security is different from true security, so it actually decrease the "real" security (military wearing war-tiers weapons that are not even loaded).
+
+Should we make the world more secure ? It is actually really difficult, since we might want to be able to bend the rules from time to time. A solution might be the network of trust, we rely on trust in a carful way. The second solution is to rely on math, on cryptography (it is really hard, and should be done careful : *snake oil crypography*, "I ivented it and cannot break it, so it must be secure").
+
+You need Open Source, because if not, you rely on security by obscurity.
+
+Can we have both ? Decentralization with cryptography ? Yes, that's called Blockchain.
