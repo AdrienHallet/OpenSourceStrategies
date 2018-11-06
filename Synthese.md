@@ -133,7 +133,7 @@ The difference between classical patents and software patents is arbitrary since
 
 # Licenses
 ### GPL
-You are forced to redistribute any modification with the same license. 
+You are forced to redistribute any modification with the same license.
 
 It evolved from v2 to v3 because of a company named Tivo, which created an on-demand video machine based on a Linux kernel. They had it under GPL v2, which means they would sell it with a hard copy of the code. But they installed a chip on the device that would prevent it to run if anything was changed in the original code (this is called an *anti-feature$, a feature that is designed to block the user).
 
@@ -189,7 +189,7 @@ The following is a logic consequence :
 
 >"Every organisation that needs money will have a strong tendancy to maximise money without consideration for anything else."
 
-When creating a new company, there ofter is the problem of "raising money" (via seed funding,...). Those people giving money rarely are just angels, they excpect return on their investment; wich means that raising money is not a business model, you need to *sell* something, to have a product. 
+When creating a new company, there ofter is the problem of "raising money" (via seed funding,...). Those people giving money rarely are just angels, they excpect return on their investment; wich means that raising money is not a business model, you need to *sell* something, to have a product.
 
 ## Business models
 Business models need to be flexible, never stick to the initial idea. We need to change the business model to adapt the situation. There is always a customer. Even when the app is free (ads) or public (administration).
@@ -296,3 +296,40 @@ Should we make the world more secure ? It is actually really difficult, since we
 You need Open Source, because if not, you rely on security by obscurity.
 
 Can we have both ? Decentralization with cryptography ? Yes, that's called Blockchain.
+
+----
+*Lecture 7*
+
+*In December, we will have an "elevator pitch" in which we will talk for 3' (each) about our project.*
+
+### Is decentralisation a good thing ?
+Yes, sometimes.
+
+### Interoperability
+Is good (duh). Writing is kind of an interoperability interface between human transcending time and space. It is good to be conservative in what you send, and open in what you receive. Interoperability sometimes occurs through reverse-engineering. It implies standardization.
+
+#### Standardization
+There are multiple levels of standardization :
+1. Active obfuscation
+2. Closed source implementation (without obfuscation)
+3. Documentation of the format
+4. Documentation and open source reference implementation
+5. A diverse group working to standardize the format
+6. A recognized standard (e.g.: ISO)
+
+### Decentralization
+A distributed system in which multiple authorities control multiples aspects of something, forming a system in which you don't have to trust a single authority to interact with the system.
+
+You can break the decentralized network:
+* Forking it (disagree)
+* Pretend to agree but in fact disagree (bamboozled again)
+* Respect the protocol but abuse the system (spam)
+
+Disadvantages of decentralization:
+* Agreement on protocol changes
+* Upgrading nodes of the network
+* Spam
+* Complexity (implementation)
+* Complexity (UX)
+* Social acceptance of problems
+* Natural tendency to recentralise (everyone on the same instance)
