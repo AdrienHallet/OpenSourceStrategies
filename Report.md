@@ -20,4 +20,8 @@ Here is an illustration of the problem :
 
 ## Getting in the Project
 
-> WIP
+This is not the first project I get into. But this one really hit me as a state of the art (cluster of) repository and group project in general. You can see that Atom indeed comes from GitHub. It is huge, but tidy and well-maintained. There are many repositories, even their core features are split between different origins. Teletype's repository only contains the code and redirects to the main repository for all the contact informations.
+
+* Day 1 : Conecting to their chatroom, I read the contributions guidelines and followed the link to their [flight manual](https://flight-manual.atom.io/). Setting the project up was not that difficult considering its sheer size. Running the tests was more of a challenge, but nothing that could not be done in a few hours (mainly due to database conflicts).
+
+* Day 2 : I now needed to understand how atom works. I never worked with Electron (a cross-platform build framework that Atom is built on); so I researched about it. For GUI, I usually use native (*e.g.: JavaFX*) or popular low-level libraries (*e.g.: Qt*). This kind of local website approach is surprisingly convenient for a lot of aspects (uniform user experience, cross-platform compatibility, front-end development). 
