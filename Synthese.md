@@ -424,8 +424,16 @@ In fact, money (as our actual bills) has no "real" value, only the value we give
 
 Voluntary forks of those projects should be possible, but accidental ones should be avoided.
 
-Byzantine generals problems and Sybil attacks (TODO see what that is).
+Byzantine generals problems (Reliable computer systems must handle malfunctioning components that give conflicting information to different parts of the system) and Sybil attacks (attack wherein a reputation system is subverted by forging identities in peer-to-peer networks).
 
 We create the value with lemma 2, when people start to see value in a virtual currency, like with the bubbles of Bitcoin.
 
 Note that cryptocurrency has its own blockchain (BTC, LTC, ETH,…) ERC20 is a standard smart-contract based on the Ethereum blockchain.
+
+There is a vertical database problem : there is always a need for a human "translator". But blockchain is the first database to overcome that problem (becoming horizontal). It makes it transparent, accountable (private keys) and decentralized.
+
+Examples : Namecoin, ZeroNet, Ethereum and smart contracts, supply chain, project management, identity, democracy,...
+
+Bitcoin's blockchain is the bllions dolloars bounty, but a complex equilibrium of developers, nodes (users), miners and businesses.
+
+We all know that mining consumes a lot of energy, so is this an ecological disaster ? Maybe not (currently an experiment), because most of the electricity comes from wasted sources, and it might change the dynamic of the power market.
