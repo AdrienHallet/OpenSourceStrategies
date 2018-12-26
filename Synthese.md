@@ -180,6 +180,7 @@ Trilicensing also exists, or even relicensing (changing the licence), which is r
 
 ---
 *Lecture 3*
+#Business models
 
 The main metrics of our society is *money* (we consider someone to be successful/smart/good if he/she has money). But there is a paradox with every metrics (green and red cars image) :
 
@@ -208,6 +209,7 @@ Ads are not free ! At the very least, you pay with the time you spend to watch t
 
 ---
 *Lecture 4*
+# Community
 
 There is a differences between **donation** and **charity** : charity is giving money out of pure generosity (or pity, or to feel better about something); when a donation is buying a service to the price you want.
 
@@ -240,6 +242,7 @@ Finally, there is the principle of **bicycle sheding** : when a group of people 
 
 ---
 *Lecture 5*
+#Why open source ?
 When choosing a solution, there always is a few metrics :
 * **Cost** : the *Total Cost of Ownership* (TCO) including hardware, salaries,... Very complex to calculate (nearly impossible in reality)
 * **Meet the requirement**, meaning that we check the specifications. In reality, they can't cover everything, and most of the time not written by users.
@@ -268,6 +271,7 @@ Also, the specifications may force Open Source, since you might one to be able t
 
 ---
 Lecture 6
+#Privacy and security
 
 What is privacy ? Your position, phone number, messages, favorite sex fetish,... But it depends with whom you share it ! Most of us share our position with Google.
 
@@ -300,13 +304,11 @@ Can we have both ? Decentralization with cryptography ? Yes, that's called Block
 ----
 *Lecture 7*
 
-*In December, we will have an "elevator pitch" in which we will talk for 3' (each) about our project.*
-
 ### Is decentralisation a good thing ?
 Yes, sometimes.
 
 ### Interoperability
-Is good (duh). Writing is kind of an interoperability interface between human transcending time and space. It is good to be conservative in what you send, and open in what you receive. Interoperability sometimes occurs through reverse-engineering. It implies standardization.
+Is good (duh). Writing is kind of an interoperability interface between human transcending time and space. It is good to be conservative in what you send, and open in what you receive. Interoperability sometimes occurs through reverse-engineering. It implies standardization, which is great, but usage is more important.
 
 #### Standardization
 There are multiple levels of standardization :
@@ -317,13 +319,23 @@ There are multiple levels of standardization :
 5. A diverse group working to standardize the format
 6. A recognized standard (e.g.: ISO)
 
+There is *de-facto standards*, which are either non-standardised format or a bad implementation of an existing standard.
+
+Also, we have to know that the best standrards does not always win, which mean we should not try to build the best possible one.
+
 ### Decentralization
-A distributed system in which multiple authorities control multiples aspects of something, forming a system in which you don't have to trust a single authority to interact with the system.
+A distributed system in which multiple authorities control multiples aspects of something, forming a system in which you don't have to trust a single authority to interact with the system. It's a permanently evolving consensus (which is called "protocol").
+
+Why is it so hard ? Because you can't trust other members of the network, and you have to agree with them on the design.
 
 You can break the decentralized network:
 * Forking it (disagree)
 * Pretend to agree but in fact disagree (bamboozled again)
 * Respect the protocol but abuse the system (spam)
+
+Benefits of decentralisation :
+* Better resilience of the overal system (survivability)
+* Privacy and security
 
 Disadvantages of decentralization:
 * Agreement on protocol changes
@@ -333,3 +345,56 @@ Disadvantages of decentralization:
 * Complexity (UX)
 * Social acceptance of problems
 * Natural tendency to recentralise (everyone on the same instance)
+
+Examples of decentrilised networks : Mail, XMPP, Mastodon, Diaspora
+
+---
+*Lecture 8*
+# Open source in enterprise
+
+## Use cases
+1. Using open source software for non-product tasks
+2. Using open source software in your product
+3. Open sourcing an internal product
+4. Open sourcing a released proprietary product
+5. Developing an open source product
+
+### Using for non-product tasks
+When recommending an open source software, the first rule is that nobody will be fired for recommending Microsoft. Also, you have to know that you will be held responsible for the issues happening with your recommendation, and you're likely to become attached to it.
+
+You have to ask youself two questions :
+* Why should we use this tool ? -> Cost/benefit analysis, see the long term advantages, ask if ideology is important.
+
+The consequences of choosing an open source product is the fear of contamination, the support and the adaptability. Change management will always be a big part of projects, and every change has a cost.
+
+* How should I convince the others ? -> Be transparent with yourself and other about ideology or your own preferences, acknowledge whether the choice is rational or irrational.
+
+To convince, pitch it to management, makes some experiments (sometimes hidding them) and recruit proponent. Follow the "don't ask for permission, ask for forgiveness", enlarging the project gradually when presenting it, making a point to say why it is interesting to take the risk to change.
+
+### Using in your product
+First, you have to clarify legal implications (contamination, publication). Then, you have to convince, like in the previous section. The convincing part should start with yourself, you have to be ready to hear new arguments and change your opinion.
+
+Then, you have to choose between maintaining a private branch or contributing.
+
+If you do a private branch, you'll have quick and dirty code, but you won't fear that it'll be stolen. You can try and link it with some proprietary code, but you'll have to be carful about the legality of that. Overall, it'll be a nightmare to mintain. Really.
+
+If you choose to contribute, you'll have more upfront work, but virtually no maintenance. Also, you'll have good community karma, which is good to influence the project. But, if your use case is very specific, you *really* will have a lot upfront work.
+
+The best case is to hire a contributor of the project, or to pay a employee to become an active contributor. It is also important to say thanks, either by making donation, becoming a sponsor, or hosting events for the project.
+
+### Open sourcing an internal product
+The advantages are that there is external contributions and potential collaboration, event with direct competitors, and again, good community karma.
+
+The disadvantages are that maintaining a community is hard and time-consumming. Also, if you want to keep control, you should probably introduct dual-licensing (security by obscurity).
+
+You should also think about the *bus factor* (the number of persons that could get hit by a bus before ruining your project). Most of the time, only a few people know the specifics of the project.
+
+### Open sourcing a released proprietary product
+This usually requires finding a new business model, because most open sourcing happen when there is no more money in the company.
+
+Example : Netscape, StarOffice
+
+### Developing an open source product
+First thing : you don't have a good idea. You have to work on it, and then to execute it to have a business. Com up with a Minimum Viable Product, test it (even only on paper), try to sell it (even to yourself).
+
+Build your pitch, your Business Model Canvas, and try.
