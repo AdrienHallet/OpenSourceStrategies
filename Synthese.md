@@ -398,3 +398,34 @@ Example : Netscape, StarOffice
 First thing : you don't have a good idea. You have to work on it, and then to execute it to have a business. Com up with a Minimum Viable Product, test it (even only on paper), try to sell it (even to yourself).
 
 Build your pitch, your Business Model Canvas, and try.
+
+---
+*Lecture 9*
+# Changing the world
+TODO : read https://www.gnu.org/philosophy/right-to-read.html
+
+Can open source change the world ? It has taught us governance, cooperation, freedom of knowledge, transparency, security, privacy and finally decentralisation.
+
+It changes the businesses (imagine starting one without open source), changes our view on patents (see the Tesla policy).
+
+We have created open science, and big companies like Google or Apple encourage open source (like Google summer of code). There is more care about privacy (mainly from Firefox).
+
+It can change associations, change the political system. It could "save the internet" by re-decentralizing it (Tor, blockchain). Even create a new form of democracy (meritocracy, liquid democracy, where voters can always revoke or re-delegate).
+
+---
+*Lecture 10*
+# Blockchain
+
+Lemma 1 : merkle tree (tree with hashes of the two branches under, and text as the leaves).
+
+Lemma 2 : intersubjective reality (religions, countries, money).
+
+In fact, money (as our actual bills) has no "real" value, only the value we give it. Wich is why we could create virtual money (paypal or even bank accounts). Blockchain allows us to implement decentralized virtual money. [Note]: if it's not open source, it's not real blockchain because it can't be distributed.
+
+Voluntary forks of those projects should be possible, but accidental ones should be avoided.
+
+Byzantine generals problems and Sybil attacks (TODO see what that is).
+
+We create the value with lemma 2, when people start to see value in a virtual currency, like with the bubbles of Bitcoin.
+
+Note that cryptocurrency has its own blockchain (BTC, LTC, ETH,…) ERC20 is a standard smart-contract based on the Ethereum blockchain.
